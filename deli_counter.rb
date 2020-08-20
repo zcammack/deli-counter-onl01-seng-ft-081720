@@ -4,4 +4,5 @@ def line (katz_deli)
   else
     katz_deli.each_with_index do |customer, idx|
       puts "The line is currently: #{idx"."} #{customer}"
+  end
 end
