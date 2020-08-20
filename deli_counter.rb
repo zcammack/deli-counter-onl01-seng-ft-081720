@@ -6,5 +6,5 @@ def line (katz_deli)
     deli_line << "#{idx + 1}. #{customer}"
   end
   puts "The line is currently: #{deli_line}"
-end
+  end
 end
