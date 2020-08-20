@@ -1,5 +1,7 @@
 def line (katz_deli)
-  katz_deli.each.with_index do |customer, idx|
-    puts "#{customer} is number #{idx} in line."
-    end
+  if katz_deli.length == 0
+    then puts "The line is currently empty."
+  else
+    katz_deli.each_with_index do |customer, idx|
+      puts "The line is currently: #{idx"."} #{customer}"
 end
