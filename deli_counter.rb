@@ -10,11 +10,11 @@ def line (katz_deli)
   end
 end
 
-def take_a_number(deli, name)
-  deli << name
-  puts "Welcome, #{name}. You are number #{deli.length} in line."
+def take_a_number(deli, customer)
+  deli << customer
+  puts "Welcome, #{customer}. You are number #{deli.length} in line."
 end
 
-def now_serving()
+def now_serving(deli)
 
 end
