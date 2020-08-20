@@ -1,5 +1,5 @@
 def line (katz_deli)
   katz_deli.each.with_index do |customer, idx|
-    "#{customer} is number #{idx} in line."
+    puts "#{customer} is number #{idx} in line."
     end
 end
