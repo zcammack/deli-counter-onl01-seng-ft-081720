@@ -4,4 +4,5 @@ def line (katz_deli)
   else
     katz_deli.each.with_index do |customer, idx|
       "#{customer} is number #{idx} in line."
+    end
 end
