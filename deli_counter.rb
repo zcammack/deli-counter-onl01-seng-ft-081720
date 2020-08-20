@@ -5,8 +5,9 @@ def line (katz_deli)
     deli_line = "The line is currently:"
     katz_deli.each.with_index(1) do |customer, idx|
     deli_line << " #{idx}. #{customer}"
+    end
+    puts deli_line
   end
-  puts deli_line
 end
 
 def take_a_number()
